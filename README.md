@@ -1,25 +1,25 @@
 # first-try
-1. factorial(n)
+1. factorial(n) https://github.com/ArnavSharma91/first-try/blob/main/w2q1.py
 
 The factorial(n) function computes the factorial of a non-negative integer n, defined as the product of all positive integers up to n. It is commonly used in permutations, combinations, probability, and recursive mathematical definitions.
 
-2. is_palindrome(n)
+2. is_palindrome(n) https://github.com/ArnavSharma91/first-try/blob/main/w2q2.py
 
 The is_palindrome(n) function checks whether a given number reads the same forward and backward. It converts the number to a string and compares it to its reverse, returning True for palindromic numbers like 121 or 1331.
 
-3. mean_of_digits(n)
+3. mean_of_digits(n) https://github.com/ArnavSharma91/first-try/blob/main/w2q3.py
 
 The mean_of_digits(n) function calculates the average value of the digits in a number. It extracts each digit, sums them, and divides by the total number of digits to compute the mean.
 
-4. digital_root(n)
+4. digital_root(n) https://github.com/ArnavSharma91/first-try/blob/main/w2q4.py  
 
 The digital_root(n) function repeatedly sums the digits of a number until a single-digit result is obtained. This concept is used in checksum calculations and modular arithmetic (especially mod 9).
 
-5. is_abundant(n)
+5. is_abundant(n) https://github.com/ArnavSharma91/first-try/blob/main/w2q5.py
 
 The is_abundant(n) function determines whether a number is abundant, meaning the sum of its proper divisors is greater than the number itself. Abundant numbers include 12, 18, and 20.
 
-6. is_deficient(n)
+6. is_deficient(n) 
 
 The is_deficient(n) function checks whether the sum of a number’s proper divisors is less than the number. Many positive integers such as primes are deficient numbers.
 
