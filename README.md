@@ -19,22 +19,22 @@ The digital_root(n) function repeatedly sums the digits of a number until a sing
 
 The is_abundant(n) function determines whether a number is abundant, meaning the sum of its proper divisors is greater than the number itself. Abundant numbers include 12, 18, and 20.
 
-6. is_deficient(n) 
+6. is_deficient(n)  https://github.com/ArnavSharma91/first-try/blob/main/QUE-1.PYTHON.py
 
 The is_deficient(n) function checks whether the sum of a number’s proper divisors is less than the number. Many positive integers such as primes are deficient numbers.
 
-7. is_harshad(n)
+7. is_harshad(n) https://github.com/ArnavSharma91/first-try/blob/main/QUE-2.PYTHON.py
 
 The is_harshad(n) function evaluates whether a number is divisible by the sum of its digits. Harshad numbers like 18 and 21 satisfy this property and are used in digital mathematics.
 
-8. is_automorphic(n)
+8. is_automorphic(n) https://github.com/ArnavSharma91/first-try/blob/main/QUE-3.PYTHON.py
 
 The is_automorphic(n) function determines if a number’s square ends in the number itself. For example, 5 → 25 and 76 → 5776 are automorphic numbers.
-9. is_pronic(n)
+9. is_pronic(n) https://github.com/ArnavSharma91/first-try/blob/main/QUE-4.PYTHON.py
 
 The is_pronic(n) function checks if a number is the product of two consecutive integers, i.e.,
                             n=k(k+1)
-10. prime_factors(n)
+10. prime_factors(n) https://github.com/ArnavSharma91/first-try/blob/main/QUE-5.PYTHON.py
 
 The prime_factors(n) function returns a list of prime numbers that multiply together to give n. It performs repeated division starting from the smallest primes.
 11. count_distinct_prime_factors(n)
