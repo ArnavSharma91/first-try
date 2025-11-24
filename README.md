@@ -66,79 +66,79 @@ The twin_primes(limit) function generates all pairs of twin primes up to a speci
 
 The count_divisors(n) function counts the total number of positive divisors of a number, including 1 and the number itself. This is useful in divisor-based classifications like perfect or highly composite numbers.
 
-16. aliquot_sum(n)
+16. aliquot_sum(n) https://github.com/ArnavSharma91/first-try/blob/main/W5Q1.py
 
 The aliquot_sum(n) function computes the sum of all proper divisors of a number (divisors less than the number). It is a key part of determining perfect, deficient, and amicable numbers.
 
-17. are_amicable(a, b)
+17. are_amicable(a, b) https://github.com/ArnavSharma91/first-try/blob/main/W5Q2.py
 
 The are_amicable(a, b) function checks whether two numbers are amicable pairs—i.e., the aliquot sum of a equals b, and the aliquot sum of b equals a. Example pair: (220, 284).
 
-18. multiplicative_persistence(n)
+18. multiplicative_persistence(n) https://github.com/ArnavSharma91/first-try/blob/main/W5Q3.py 
 
 This function computes how many steps are needed to repeatedly multiply a number’s digits until a single digit remains.
 
-19. is_highly_composite(n)
+19. is_highly_composite(n) https://github.com/ArnavSharma91/first-try/blob/main/W5Q4.py
 
 The is_highly_composite(n) function checks if a number has more positive divisors than any smaller positive integer. Highly composite numbers include 1, 2, 4, 6, 12, etc.
 
-20. mod_exp(base, exponent, modulus)
+20. mod_exp(base, exponent, modulus) https://github.com/ArnavSharma91/first-try/blob/main/W5Q5.py
 The mod_exp() function efficiently computes
                   (base^exponenet) mod modulus
 using binary (fast) exponentiation. It is crucial in cryptography, number theory, and modular arithmetic operations.
 
-21. mod_inverse(a, m)
+21. mod_inverse(a, m) https://github.com/ArnavSharma91/first-try/blob/main/W6Q1.py
 
 The mod_inverse(a, m) function computes the modular multiplicative inverse of a under modulus m, which is a number x satisfying the congruence (a * x) ≡ 1 (mod m). This function is essential in modular arithmetic, cryptography, and applications like RSA, and typically uses the Extended Euclidean Algorithm.
 
-22. crt(remainders, moduli)
+22. crt(remainders, moduli) https://github.com/ArnavSharma91/first-try/blob/main/W6Q2.py
 
 The crt(remainders, moduli) function solves systems of simultaneous congruences using the Chinese Remainder Theorem. Given equations of the form x ≡ rᵢ (mod mᵢ), it computes the unique solution modulo the product of the moduli, assuming they are pairwise coprime.
 
-23. is_quadratic_residue(a, p)
+23. is_quadratic_residue(a, p) https://github.com/ArnavSharma91/first-try/blob/main/W6Q3.py
 
 The is_quadratic_residue(a, p) function checks whether the congruence x² ≡ a (mod p) has a solution, meaning whether a is a quadratic residue modulo the prime number p. This often uses Euler’s Criterion or the Legendre Symbol.
 
-24. order_mod(a, n)
+24. order_mod(a, n) https://github.com/ArnavSharma91/first-try/blob/main/W6Q4.py
 
 The order_mod(a, n) function finds the smallest positive integer k such that aᵏ ≡ 1 (mod n). This multiplicative order is significant in group theory, primitive roots, and cryptography.
 
-25. is_fibonacci_prime(n)
+25. is_fibonacci_prime(n) https://github.com/ArnavSharma91/first-try/blob/main/W6Q5.py
 
 The is_fibonacci_prime(n) function checks if a number is both a Fibonacci number and a prime number. It first determines whether n belongs to the Fibonacci sequence, then applies primality testing.
 
-26. lucas_sequence(n)
+26. lucas_sequence(n) https://github.com/ArnavSharma91/first-try/blob/main/W7Q1.py
 
 The lucas_sequence(n) function generates the first n numbers of the Lucas sequence, which is similar to the Fibonacci sequence but begins with values 2 and 1. Lucas numbers appear in combinatorics, primality tests, and number theory identities.
 
-27. is_perfect_power(n)
+27. is_perfect_power(n) https://github.com/ArnavSharma91/first-try/blob/main/W7Q2.py
 
 The is_perfect_power(n) function determines if a number can be written in the form aᵇ where a > 0 and b > 1. Examples include 8 = 2³ and 81 = 3⁴. Perfect powers relate to exponential Diophantine equations and factorization.
 
-28. collatz_length(n)
+28. collatz_length(n) https://github.com/ArnavSharma91/first-try/blob/main/W7Q3.py
 
 The collatz_length(n) function computes the number of steps required for a number n to reach 1 following the Collatz sequence rules. This famous unsolved problem uses the operations: even → n/2, odd → 3n + 1.
 
-29. polygonal_number(s, n)
+29. polygonal_number(s, n) https://github.com/ArnavSharma91/first-try/blob/main/W7Q4.py
 
 The polygonal_number(s, n) function returns the n-th s-gonal number, where s determines the shape: triangular (3), square (4), pentagonal (5), etc. Polygonal numbers appear in geometry and discrete math.
 
-30. is_carmichael(n)
+30. is_carmichael(n) https://github.com/ArnavSharma91/first-try/blob/main/W7Q5.py
 
 The is_carmichael(n) function checks whether a composite number n is a Carmichael number, meaning it satisfies aⁿ⁻¹ ≡ 1 (mod n) for all integers a that are coprime to n. These numbers are Fermat pseudoprimes to every base and are important in cryptography.
 
-31. is_prime_miller_rabin(n, k)
+31. is_prime_miller_rabin(n, k) https://github.com/ArnavSharma91/first-try/blob/main/W8Q1.py
 
 The is_prime_miller_rabin(n, k) function performs the Miller–Rabin probabilistic primality test with k accuracy rounds. It efficiently determines whether a number is prime with very high reliability, used widely in cryptography.
 
-32. pollard_rho(n)
+32. pollard_rho(n) https://github.com/ArnavSharma91/first-try/blob/main/W8Q2.py
 
 The pollard_rho(n) function implements Pollard’s Rho Algorithm, a fast probabilistic method for integer factorization. It is especially effective for large composite numbers used in cryptographic systems.
 
-33. zeta_approx(s, terms)
+33. zeta_approx(s, terms) https://github.com/ArnavSharma91/first-try/blob/main/W8Q3.py
 
 The zeta_approx(s, terms) function computes an approximation of the Riemann Zeta Function ζ(s) by summing the first terms of the infinite series. It is useful for numerical analysis, analytic number theory, and studying special values.
 
-34. partition_function(n)
+34. partition_function(n) https://github.com/ArnavSharma91/first-try/blob/main/W8Q4.py
 
 The partition_function(n) function calculates the number of distinct ways to express n as a sum of positive integers, disregarding order. This classical combinatorics function grows rapidly and is key in integer partitions, generating functions, and number theory.
