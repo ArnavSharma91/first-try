@@ -6,11 +6,3 @@ def is_deficient(n):
      return sum_div < n
 print(is_deficient(8))
 print(is_deficient (12))
-
-#Loop through all numbers less than n
-
-#Check if i divides n evenly
-
-#Add divisor to the sum
-
-#Return True if sum of divisors is less than
